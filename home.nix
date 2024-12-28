@@ -1,8 +1,6 @@
 { config, pkgs, ... }:
 let
     myAliases = { 
-        ll = "ls -l";
-        ".." = "cd ..";
         hmsc = "home-manager switch --flake .";
     };
 in
